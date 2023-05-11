@@ -104,6 +104,7 @@ img {
     font-weight: var(--weight-500);
     position: relative;
     overflow: hidden;
+    transition: all 0.25s ease-in-out;
 }
 
 .button:hover {
