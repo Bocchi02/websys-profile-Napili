@@ -1,6 +1,8 @@
 import React from "react";
 import Infos from "../components/Infos";
 import Stats from "../components/Stats";
+import { FaDownload } from "react-icons/fa";
+import CV from "../../assets/blank-cv.pdf";
 
 const About = () => {
     return (
@@ -16,6 +18,12 @@ const About = () => {
                         <ul className="info__list grid">
                             <Infos />
                         </ul>
+                        <a href={CV} download="" className="button">
+                            Download CV
+                            <span className="button__icon">
+                                <FaDownload />
+                            </span>
+                        </a>
                     </div>
                 </div>
             </section>
