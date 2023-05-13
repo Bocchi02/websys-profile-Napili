@@ -3,6 +3,7 @@ import Infos from "../components/Infos";
 import Stats from "../components/Stats";
 import { FaDownload } from "react-icons/fa";
 import CV from "../../assets/blank-cv.pdf";
+import "./about.css";
 
 const About = () => {
     return (
