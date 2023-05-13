@@ -169,7 +169,7 @@ export const resume = [
         id: 4,
         category: "experience",
         icon: <FaBriefcase />,
-        year: "2016 - PRESENT",
+        year: "2016 - Present",
         title: "Video Editor <span> Freelance </span>",
         desc: "Video editing has been my passion since High School, and I was given the chance to showcase my skills when I was entrusted with the task of creating and editing our school's Virtual Graduation in Senior High.",
     },
