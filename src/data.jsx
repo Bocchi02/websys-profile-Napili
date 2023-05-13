@@ -114,26 +114,26 @@ export const personalInfo = [
 export const stats = [
     {
         id: 1,
-        no: "12+",
-        title: "Years of <br /> Experience",
+        no: "2",
+        title: "Years <br /> Web Development",
     },
 
     {
         id: 2,
-        no: "6",
-        title: "Completed <br /> Projects",
+        no: "1",
+        title: "Year <br /> UI/UX Designer",
     },
 
     {
         id: 3,
-        no: "2",
-        title: "Happy <br /> Customers",
+        no: "7+",
+        title: "Years <br /> Video Editor",
     },
 
     {
         id: 4,
-        no: "53+",
-        title: " Awards <br /> Won",
+        no: "10",
+        title: " Satisfied <br /> Clients",
     },
 ];
 
@@ -142,53 +142,71 @@ export const resume = [
         id: 1,
         category: "experience",
         icon: <FaBriefcase />,
-        year: "2018 - PRESENT",
-        title: "Web Developer <span> Envato </span>",
-        desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+        year: "2022 - Present",
+        title: "UI/UX Designer <span> Freelance </span>",
+        desc: "College introduced me to UI/UX designing, and it inspired my passion for creating visually stunning and functional digital experiences that perfectly cater to the needs of the audience.",
     },
 
     {
         id: 2,
         category: "experience",
         icon: <FaBriefcase />,
-        year: "2013 - 2018",
-        title: "UI/UX Designer <span> Themeforest </span>",
-        desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt",
+        year: "2021 - Present",
+        title: "Web Developer <span> Freelance </span>",
+        desc: "I discovered web development in my first year of college, and what started as a hobby has grown into a love for crafting visually appealing and functional websites.",
     },
 
     {
         id: 3,
         category: "experience",
         icon: <FaBriefcase />,
-        year: "2005 - 2013",
-        title: "Consultant <span> Videohive </span>",
-        desc: "Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt",
+        year: "2020 - Present",
+        title: "Wi-Fi Outdoor Antenna Installation <span> Freelance </span>",
+        desc: "Poor signal at home prompted me to install outdoor antennas for personal use. Interest from others turned it into a pandemic-era business that's still thriving today.",
     },
 
     {
         id: 4,
-        category: "education",
-        icon: <FaGraduationCap />,
-        year: "2015",
-        title: "Engineering Degree <span> Oxford University </span>",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore",
+        category: "experience",
+        icon: <FaBriefcase />,
+        year: "2016 - PRESENT",
+        title: "Video Editor <span> Freelance </span>",
+        desc: "Video editing has been my passion since High School, and I was given the chance to showcase my skills when I was entrusted with the task of creating and editing our school's Virtual Graduation in Senior High.",
     },
 
     {
         id: 5,
         category: "education",
         icon: <FaGraduationCap />,
-        year: "2012",
-        title: "Master Degree <span> KIEV University </span>",
-        desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt",
+        year: "2021 - Present",
+        title: "Bachelor Degree <span> Bicol University </span>",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore",
     },
 
     {
         id: 6,
         category: "education",
         icon: <FaGraduationCap />,
-        year: "2009",
-        title: "Bachelor Degree <span> Tunis High School </span>",
+        year: "2019 - 2021",
+        title: "Senior High School <span> Camalig National High School </span>",
+        desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt",
+    },
+
+    {
+        id: 7,
+        category: "education",
+        icon: <FaGraduationCap />,
+        year: "2015 - 2019",
+        title: "Junior High School <span> Cotmon National High School </span>",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore",
+    },
+
+    {
+        id: 8,
+        category: "education",
+        icon: <FaGraduationCap />,
+        year: "2009 - 2015",
+        title: "Elementary <span> Maninila Elementary School </span>",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore",
     },
 ];
@@ -196,50 +214,50 @@ export const resume = [
 export const skills = [
     {
         id: 1,
-        title: "Html",
-        percentage: "25",
+        title: "HTML",
+        percentage: "50",
     },
 
     {
         id: 2,
-        title: "Javascript",
-        percentage: "89",
+        title: "JavaScript",
+        percentage: "60",
     },
 
     {
         id: 3,
-        title: "Css",
+        title: "CSS",
         percentage: "70",
     },
 
     {
         id: 4,
-        title: "Php",
-        percentage: "66",
+        title: "PHP",
+        percentage: "30",
     },
 
     {
         id: 5,
-        title: "Wordpress",
-        percentage: "95",
+        title: "JQuery",
+        percentage: "40",
     },
 
     {
         id: 6,
-        title: "Jquery",
-        percentage: "50",
+        title: "C",
+        percentage: "60",
     },
 
     {
         id: 7,
-        title: "Angular",
-        percentage: "65",
+        title: "ReactJS",
+        percentage: "45",
     },
 
     {
         id: 8,
-        title: "React",
-        percentage: "45",
+        title: "Java",
+        percentage: "50",
     },
 ];
 
