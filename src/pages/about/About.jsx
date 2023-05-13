@@ -7,7 +7,7 @@ import "./about.css";
 
 const About = () => {
     return (
-        <div className="section container">
+        <main className="section container">
             <section className="about">
                 <h2 className="section__title">
                     About <span>Me</span>
@@ -31,7 +31,15 @@ const About = () => {
                     </div>
                 </div>
             </section>
-        </div>
+
+            <div className="separator"></div>
+
+            <section className="skills">
+                <h3 className="section__subtitle subtitle__center">My Skills</h3>
+
+                <div className="skills__container grid"></div>
+            </section>
+        </main>
     );
 };
 
