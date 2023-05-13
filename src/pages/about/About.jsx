@@ -25,6 +25,9 @@ const About = () => {
                             </span>
                         </a>
                     </div>
+                    <div className="stats grid">
+                        <Stats />
+                    </div>
                 </div>
             </section>
         </div>

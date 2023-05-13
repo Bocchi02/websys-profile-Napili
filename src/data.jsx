@@ -58,54 +58,60 @@ export const personalInfo = [
 
     {
         id: 2,
-        title: "Last Name : ",
-        description: "Nappili",
+        title: "Middle Name : ",
+        description: "Nocuenca",
     },
 
     {
         id: 3,
+        title: "Last Name : ",
+        description: "Napili",
+    },
+
+    {
+        id: 4,
         title: "Age : ",
         description: "20 Years",
     },
 
     {
-        id: 4,
+        id: 5,
         title: "Nationality : ",
         description: "Filipino",
     },
 
     {
-        id: 5,
+        id: 6,
         title: "Freelance : ",
         description: "Available",
     },
 
     {
-        id: 6,
+        id: 7,
         title: "Address : ",
         description: "Albay, Philippines",
     },
 
     {
-        id: 7,
+        id: 8,
         title: "Phone : ",
         description: "+639280004689",
     },
 
     {
-        id: 8,
+        id: 9,
         title: "Email : ",
         description: "161141denzel@gmail.com",
     },
 
     {
-        id: 9,
+        id: 10,
         title: "Skype : ",
         description: "denzel.napili",
     },
 
     {
-        id: 10,
+        id: 11,
         title: "Languages : ",
         description: "English, Filipino",
     },
