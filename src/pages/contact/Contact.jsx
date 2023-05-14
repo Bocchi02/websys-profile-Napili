@@ -20,28 +20,28 @@ const Contact = () => {
                             <FaEnvelopeOpen className="info__icon" />
                             <div>
                                 <span className="info__title">Mail Me</span>
-                                <span className="info__desc">161141denzel@gmail.com</span>
+                                <h4 className="info__desc">161141denzel@gmail.com</h4>
                             </div>
                         </div>
                         <div className="info__item">
                             <FaPhoneSquareAlt className="info__icon" />
                             <div>
                                 <span className="info__title">Call Me</span>
-                                <span className="info__desc">+63 928 0004 689</span>
+                                <h4 className="info__desc">+63 928 0004 689</h4>
                             </div>
                         </div>
                     </div>
                     <div className="contact__socials">
-                        <a href="https://www.facebook.com/denzelnapili.animo/" className="contact__social-link">
+                        <a href="https://www.facebook.com/denzelnapili.animo/" target="_blank" rel="noopener, noreferrer" className="contact__social-link">
                             <FaFacebookF />
                         </a>
-                        <a href="https://www.instagram.com/coinci_denz/" className="contact__social-link">
+                        <a href="https://www.instagram.com/coinci_denz/" target="_blank" rel="noopener, noreferrer" className="contact__social-link">
                             <FaInstagram />
                         </a>
-                        <a href="https://www.youtube.com/channel/UCGPJkuKkHIE9O2aS1-_rx-A" className="contact__social-link">
+                        <a href="https://www.youtube.com/channel/UCGPJkuKkHIE9O2aS1-_rx-A" target="_blank" rel="noopener, noreferrer" className="contact__social-link">
                             <FaYoutube />
                         </a>
-                        <a href="https://github.com/CoinciDenz" className="contact__social-link">
+                        <a href="https://github.com/CoinciDenz" target="_blank" rel="noopener, noreferrer" className="contact__social-link">
                             <FaGithub />
                         </a>
                     </div>
