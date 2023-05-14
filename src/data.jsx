@@ -7,6 +7,7 @@ import Work3 from "./assets/project-3.jpeg";
 import Work4 from "./assets/project-4.jpeg";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
+import Work7 from "./assets/project-7.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -180,7 +181,7 @@ export const resume = [
         icon: <FaGraduationCap />,
         year: "2021 - Present",
         title: "Bachelor Degree <span> Bicol University </span>",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore",
+        desc: "Bachelor of Science in Information Technology",
     },
 
     {
@@ -189,7 +190,7 @@ export const resume = [
         icon: <FaGraduationCap />,
         year: "2019 - 2021",
         title: "Senior High School <span> Camalig National High School </span>",
-        desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt",
+        desc: "Science, Technology, Engineering, and Mathematics",
     },
 
     {
@@ -198,7 +199,7 @@ export const resume = [
         icon: <FaGraduationCap />,
         year: "2015 - 2019",
         title: "Junior High School <span> Cotmon National High School </span>",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore",
+        desc: "",
     },
 
     {
@@ -207,7 +208,7 @@ export const resume = [
         icon: <FaGraduationCap />,
         year: "2009 - 2015",
         title: "Elementary <span> Maninila Elementary School </span>",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore",
+        desc: "",
     },
 ];
 
@@ -265,27 +266,27 @@ export const portfolio = [
     {
         id: 1,
         img: Work1,
-        title: "Photo Editing",
+        title: "Security Technology Website",
         details: [
             {
                 icon: <FiFileText />,
                 title: "Project : ",
-                desc: "Photo",
+                desc: "Website",
             },
             {
                 icon: <FiUser />,
                 title: "Client : ",
-                desc: "Dribble",
+                desc: "Abegeil Segovia",
             },
             {
                 icon: <FaCode />,
                 title: "Language : ",
-                desc: "Adobe Photoshop",
+                desc: "HTML, CSS",
             },
             {
                 icon: <FiExternalLink />,
-                title: "Preview : ",
-                desc: "www.dribble.com",
+                title: "Link : ",
+                desc: "abegeilsegovia.github.io/",
             },
         ],
     },
@@ -293,7 +294,7 @@ export const portfolio = [
     {
         id: 2,
         img: Work2,
-        title: "Website Design",
+        title: "ISCP Sample Marketplace",
         details: [
             {
                 icon: <FiFileText />,
@@ -303,17 +304,17 @@ export const portfolio = [
             {
                 icon: <FiUser />,
                 title: "Client : ",
-                desc: "Dribble",
+                desc: "N/A (Activity in HCI)",
             },
             {
                 icon: <FaCode />,
                 title: "Language : ",
-                desc: "React JS",
+                desc: "HTML, CSS",
             },
             {
                 icon: <FiExternalLink />,
-                title: "Preview : ",
-                desc: "www.dribble.com",
+                title: "Link : ",
+                desc: "github.com/CoinciDenz/HTML-Shop",
             },
         ],
     },
@@ -321,27 +322,27 @@ export const portfolio = [
     {
         id: 3,
         img: Work3,
-        title: "Video Editing",
+        title: "Sales Invoice and Inventory",
         details: [
             {
                 icon: <FiFileText />,
                 title: "Project : ",
-                desc: "Video",
+                desc: "Desktop Application",
             },
             {
                 icon: <FiUser />,
                 title: "Client : ",
-                desc: "Dribble",
+                desc: "N/A (Final Project in OOP)",
             },
             {
                 icon: <FaCode />,
                 title: "Language : ",
-                desc: "Adobe Premium",
+                desc: "Java",
             },
             {
                 icon: <FiExternalLink />,
-                title: "Preview : ",
-                desc: "www.dribble.com",
+                title: "Link : ",
+                desc: "github.com/CoinciDenz/Sales-Invoice-and-Inventory",
             },
         ],
     },
@@ -349,7 +350,87 @@ export const portfolio = [
     {
         id: 4,
         img: Work4,
-        title: "Video Editing",
+        title: "Hotel Reservation System",
+        details: [
+            {
+                icon: <FiFileText />,
+                title: "Project : ",
+                desc: "Console Application",
+            },
+            {
+                icon: <FiUser />,
+                title: "Client : ",
+                desc: "N/A (Final Project in ComProg 2)",
+            },
+            {
+                icon: <FaCode />,
+                title: "Language : ",
+                desc: "C",
+            },
+            {
+                icon: <FiExternalLink />,
+                title: "Link : ",
+                desc: "github.com/CoinciDenz/Hotel-Reservation-System",
+            },
+        ],
+    },
+
+    {
+        id: 5,
+        img: Work5,
+        title: "Sample Resume",
+        details: [
+            {
+                title: "Project : ",
+                desc: "Website",
+            },
+            {
+                title: "Client : ",
+                desc: "N/A (Midterm Project in Intro to Computing)",
+            },
+            {
+                title: "Language : ",
+                desc: "HTML, CSS",
+            },
+            {
+                title: "Link : ",
+                desc: "github.com/CoinciDenz/Sample-Resume",
+            },
+        ],
+    },
+
+    {
+        id: 6,
+        img: Work6,
+        title: "ISCP Clone Website",
+        details: [
+            {
+                icon: <FiFileText />,
+                title: "Project : ",
+                desc: "Website",
+            },
+            {
+                icon: <FiUser />,
+                title: "Client : ",
+                desc: "N/A",
+            },
+            {
+                icon: <FaCode />,
+                title: "Language : ",
+                desc: "HTML, CSS, Bootstrap, JS",
+            },
+            {
+                icon: <FiExternalLink />,
+                title: "Link : ",
+                desc: "github.com/CoinciDenz/ICSP-Website",
+            },
+        ],
+    },
+
+    {
+        id: 6,
+        img: Work7,
+        title: "Camalig NHS Virtual Graduation 2021",
         details: [
             {
                 icon: <FiFileText />,
@@ -359,69 +440,17 @@ export const portfolio = [
             {
                 icon: <FiUser />,
                 title: "Client : ",
-                desc: "Dribble",
+                desc: "Camalig NHS",
             },
             {
                 icon: <FaCode />,
-                title: "Language : ",
-                desc: "Adobe Premium",
+                title: "Software : ",
+                desc: "Filmora 9",
             },
             {
                 icon: <FiExternalLink />,
-                title: "Preview : ",
-                desc: "www.dribble.com",
-            },
-        ],
-    },
-
-    {
-        id: 5,
-        img: Work5,
-        title: "Landing Page",
-        details: [
-            {
-                title: "Project : ",
-                desc: "Website",
-            },
-            {
-                title: "Client : ",
-                desc: "Dribble",
-            },
-            {
-                title: "Language : ",
-                desc: "React JS, Node JS",
-            },
-            {
-                title: "Preview : ",
-                desc: "www.dribble.com",
-            },
-        ],
-    },
-
-    {
-        id: 6,
-        img: Work6,
-        title: "Photo Editing",
-        details: [
-            {
-                icon: <FiFileText />,
-                title: "Project : ",
-                desc: "Photo",
-            },
-            {
-                icon: <FiUser />,
-                title: "Client : ",
-                desc: "Dribble",
-            },
-            {
-                icon: <FaCode />,
-                title: "Language : ",
-                desc: "Adobe Photoshop",
-            },
-            {
-                icon: <FiExternalLink />,
-                title: "Preview : ",
-                desc: "www.dibble.com",
+                title: "Link : ",
+                desc: "N/A",
             },
         ],
     },
