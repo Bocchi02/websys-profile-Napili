@@ -101,8 +101,8 @@ export const personalInfo = [
 
     {
         id: 9,
-        title: "Skype : ",
-        description: "denzel.napili",
+        title: "Discord : ",
+        description: "CoinciDenz#4138",
     },
 
     {
