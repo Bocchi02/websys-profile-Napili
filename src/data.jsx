@@ -84,7 +84,7 @@ export const personalInfo = [
     {
         id: 6,
         title: "Address : ",
-        description: "Albay, Philippines",
+        description: "P-1 Maninila, Camalig, Albay",
     },
 
     {
