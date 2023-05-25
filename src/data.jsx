@@ -77,8 +77,8 @@ export const personalInfo = [
 
     {
         id: 5,
-        title: "Freelance : ",
-        description: "Available",
+        title: "Birthday : ",
+        description: "July 20, 2002",
     },
 
     {
@@ -90,7 +90,7 @@ export const personalInfo = [
     {
         id: 7,
         title: "Phone : ",
-        description: "+639280004689",
+        description: "+63 928 0004 689",
     },
 
     {
