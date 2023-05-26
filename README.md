@@ -1,9 +1,19 @@
-# websys-profile-Napili
+# Profile Website | Denzel Napili
 
-### Name
+## Description
+
+This project is my final project in Web Systems and Technologies.
+
+## Year/Course/Block
+
+Year: 2nd Year
+Course: BS Information Technology
+Block: C
+
+## Name
+
 Denzel N. Napili
 
-### Year & Block
-BSIT 2C
+## Demo Video
 
-### Video Link
+Click [here](https://youtu.be/-6R1zECJoPo) to watch a demo video of the project.
