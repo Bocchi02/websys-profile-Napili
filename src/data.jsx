@@ -234,7 +234,7 @@ export const clubs = [
         id: 3,
         category: "col2",
         icon: <BsFillPeopleFill />,
-        title: "Camalig National High School <span> Senior High School </span>",
+        title: "Camalig National High School <span> Senior High </span>",
         desc: "Senior High School Student Council - Auditor (2019 - 2021) <br> English Club - Treasurer (2019 - 2020)",
     },
 ];
