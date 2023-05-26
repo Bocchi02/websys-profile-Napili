@@ -14,6 +14,6 @@ Block: C
 
 Denzel N. Napili
 
-## Demo Video
+## Video Link
 
-Click [here](https://youtu.be/-6R1zECJoPo) to watch a demo video of the project.
+Click [here](https://youtu.be/-6R1zECJoPo) to watch the explanation video of the project.
