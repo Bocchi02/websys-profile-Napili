@@ -4,8 +4,9 @@ import Stats from "../components/Stats";
 import { FaDownload } from "react-icons/fa";
 import CV from "../../assets/Napili_CV.pdf";
 import Skills from "../components/Skills";
-import { resume } from "../../data";
+import { clubs, resume } from "../../data";
 import ResumeItem from "../components/ResumeItem";
+import ClubItem from "../components/ClubItem";
 import "./about.css";
 
 const About = () => {
@@ -60,6 +61,28 @@ const About = () => {
                         {resume.map((val) => {
                             if (val.category === "education") {
                                 return <ResumeItem key={val.id} {...val} />;
+                            }
+                        })}
+                    </div>
+                </div>
+            </section>
+
+            <div className="separator"></div>
+
+            <section className="resume">
+                <h3 className="section__subtitle subtitle__center">Clubs and Organizations</h3>
+                <div className="resume__container grid">
+                    <div className="resume__data">
+                        {clubs.map((val) => {
+                            if (val.category === "col1") {
+                                return <ClubItem key={val.id} {...val} />;
+                            }
+                        })}
+                    </div>
+                    <div className="resume__data">
+                        {clubs.map((val) => {
+                            if (val.category === "col2") {
+                                return <ClubItem key={val.id} {...val} />;
                             }
                         })}
                     </div>

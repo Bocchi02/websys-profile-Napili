@@ -1,4 +1,5 @@
 import { FaHome, FaUser, FaFolderOpen, FaEnvelopeOpen, FaBriefcase, FaGraduationCap, FaCode } from "react-icons/fa";
+import { BsFillPeopleFill } from "react-icons/bs";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
 import Work1 from "./assets/project-1.jpeg";
@@ -209,6 +210,32 @@ export const resume = [
         year: "2009 - 2015",
         title: "Elementary <span> Maninila Elementary School </span>",
         desc: "",
+    },
+];
+
+export const clubs = [
+    {
+        id: 1,
+        category: "col1",
+        icon: <BsFillPeopleFill />,
+        title: "Maninila Elementary School <span> Elementary </span>",
+        desc: "Supreme Pupil Government - President (2013 - 2014) <br> Supreme Pupil Government - President (2014 - 2015)",
+    },
+
+    {
+        id: 2,
+        category: "col1",
+        icon: <BsFillPeopleFill />,
+        title: "Cotmon National High School <span> Junior High </span>",
+        desc: "Supreme Student Government - Gr. 8 Representative (2016 - 2017) <br> Physical Education Club - Escort (2016 - 2017) <br> Supreme Student Government - Gr. 9 Representative (2017 - 2018) <br> English Club - Peace Officer (2017 - 2018) <br> Art Club - Treasurer (2017 - 2019) <br> Supreme Student Government - Mass Media Officer (2018 - 2019)",
+    },
+
+    {
+        id: 3,
+        category: "col2",
+        icon: <BsFillPeopleFill />,
+        title: "Camalig National High School <span> Senior High School </span>",
+        desc: "Senior High School Student Council - Auditor (2019 - 2021) <br> English Club - Treasurer (2019 - 2020)",
     },
 ];
 
